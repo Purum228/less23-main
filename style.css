@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    color: #000000;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+header{
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav_list{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav_list li{
+    margin-right:47px ;
+}
+
+.nav_list li:last-child{
+    margin-right: 0;
+}
+
+.nav_list a{
+    text-decoration: none;
+    font-family: Roboto sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 43px;
+    align-items: center;
+}
+
+h1{
+    font-size: 36px;
+    line-height: 42px;
+    max-width: 365px;
+}
+
+.text{
+    font-size: 20px;
+    line-height: 23px;
+    margin: 50px 0;
+    max-width: 365px;
+}
+
+.btn{
+    background: #000;
+    border-radius: 16px;
+    font-size: 30px;
+    line-height: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 23px 84px 24px 83px;
+    border: 0;
+}
+.bio{
+    height: 400px;
+    background: #AFAFAF;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.bio_h2{
+    text-align: center;
+    margin: 20px;
+}
+
+.bio_p{
+    margin-top: 36px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.skills{
+    margin-top: 70px;   
+  
+}
+
+.skill_cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills_p{
+    width: 200px;
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+.skill_h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h3{
+    margin: 30px 0;
+    text-align: center;
+
+}
+
+.social_list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    max-width: 1000px;
+}
+
+.svyaz_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social_text{
+    margin: 50px 0 ;    
+    text-align: center  ;
+    width: 100px;
+}
+
+.sh3{
+    text-align: center;
+}
+
+
+.social_btn{
+     margin: 50px 0;
+}
+
+.simg{
+    margin-right: 200px;
+}
+
+.social_list:last-child{
+    margin: none;
+}
+
+.social_list:first-child{
+    margin: none;
+}
+.social_item{
+    width: 300px;
+}
